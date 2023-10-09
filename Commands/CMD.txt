@@ -49,7 +49,7 @@ STEP 03:
 
 Git Branches:
 
-> git branch -->  number of branches.
-> git branch <name of new branch> --> Creates a new branch.
-> git checkout <name of new branch> --> Navigates to the branch specified.
+> git branch (number of branches.)
+> git branch <name of new branch> (Creates a new branch.)
+> git checkout <name of new branch> (Navigates to the branch specified.)
 
