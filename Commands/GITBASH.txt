@@ -23,3 +23,21 @@ $ git config --global user.name "your GitHub username"
 07:
 $ git config --global user.email "your email id"
 
+08:
+$ git commit -m "Commit message" (For commiting with defined message.)
+
+09:
+$ git log  (For checking Logs/Activities.)
+
+10:
+$ git add .  ('.' for indicating current file.)
+
+11:
+$ git reset --hard <hash value of the version form git log>  (For getting back to previous version.)
+
+12:
+$ git clone <url>  (For cloning the GitHub repository)
+
+13:
+$ git push origin main
+
