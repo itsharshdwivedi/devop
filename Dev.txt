@@ -1,0 +1,47 @@
+PUSHING THE FILE TO THE REMOTE REPOSITORY USING THE COMMAND PROMOT.
+
+CMD COMMANDS:-
+
+STEP 01:
+> git init 
+
+STEP 02:
+> git add . 
+
+STEP 03:
+> git commit -m "commit message"
+
+STEP 04:
+> git config --global user.name "your GitHub username"
+
+STEP 05:
+> git config --global user.email "your email id"
+
+STEP 06:
+> git remote add <name of the file> <url>
+
+STEP 07:
+> git commit -m "commit message"
+
+STEP 08:
+> git push --set-upstream master 
+
+
+Alternative
+STEP 01
+> git add .
+
+STEP 02:
+> git commit -m "commit message"
+
+STEP 03:
+> git push 
+
+
+
+GIT BRANCHES
+
+> git branch -->  number of branches.
+> git branch <name of new branch> --> Creates a new branch.
+> git checkout <name of new branch> --> Navigates to the branch specified.
+
