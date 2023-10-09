@@ -1,0 +1,25 @@
+ADDING THE FILE TO THE REMOTE REPOSITORY USING GIT BASH.
+
+GIT BASH COMMANDS:
+
+01:
+$ git init
+
+02:
+$ ls -a  (Getting the list of all hidden files.)
+
+03:
+$ touch <File name.txt> (Creating the file.)
+
+04:
+$ git status  (Checking the folder/file status.)
+
+05:
+$ git add <File name.txt>  (Adding the file to stagging area.)
+
+06:
+$ git config --global user.name "your GitHub username"
+
+07:
+$ git config --global user.email "your email id"
+
