@@ -1,6 +1,6 @@
 PUSHING THE FILE TO THE REMOTE REPOSITORY USING THE COMMAND PROMOT.
 
-CMD COMMANDS:-
+CMD COMMANDS:
 
 STEP 01:
 > git init 
@@ -18,9 +18,15 @@ STEP 05:
 > git config --global user.email "your email id"
 
 STEP 06:
-> git remote add <name of the file> <url>
+> git push
 
 STEP 07:
+> git remote add <name of the file> <url>
+
+STEP 08:
+> git push <name of the file>
+
+STEP 09:
 > git commit -m "commit message"
 
 STEP 08:
