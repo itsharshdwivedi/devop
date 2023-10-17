@@ -1,7 +1,16 @@
 -- The below are the steps to add a file/folder to a remote GitHub repository --
 
 1. Create a folder on your Desktop.
-2. Open Command Prompt (CMD) in that particular folder path.
+2. Open the Command Prompt (CMD) in that particular folder path.
 3. >> git init   (Initialization of empty git repository)
-4. Create a <filename.extension> (i.e demo.txt) in that folder
-
+4. Create a <filename.extension> (i.e. demo.txt) in that folder (add some content of your choice).
+5. Save the file.
+6. >> git add .
+7. >> git commit -m "Done"
+8. >> git config --global user.name "GitHub profile name"
+9. >> git config --global user.email "email ID"
+10. >> git push
+11. >> git remote add <filename.extension> <GitHub repository URL>
+12. >> git push <filename.extension>
+13. >> git push --set-upstream <filename.extension> master
+    
