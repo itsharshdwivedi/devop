@@ -1,3 +1,11 @@
-1. Download Python, Jdk 17.0.8 & jenkins.
-2. Goto search bar and search for Edit System Variables.
+1. Download Python, Jdk 17.0.8 & Jenkins.
+2. Go to the search bar and search for Edit System Variables.
 3. In Edit System Variable click "Edit environment" ->  Under system variables select "PATH".
+4. Edit the "PATH" -> Click on "New" -> Enter the path of JDK 17.0.8 till 'Bin' then press OK.
+5. Now install Jenkins -> PATH (JDK 17.0.8) -> Run as administrator.
+6. In the browser search for "localhost:8080".
+7. Copy the highlighted link -> go to the path in this PC -> Now open the notepad -> Copy the password.
+8. Paste the password in the browser.
+9. Set the username and password of your choice -> Save and continue -> Save and continue.
+10. Open an empty GitHub repository with a READ.ME file in it and upload a sample file to it.
+11. 
