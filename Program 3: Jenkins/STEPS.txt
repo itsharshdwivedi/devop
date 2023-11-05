@@ -8,4 +8,10 @@
 8. Paste the password in the browser.
 9. Set the username and password of your choice -> Save and continue -> Save and continue.
 10. Open an empty GitHub repository with a READ.ME file in it and upload a sample file to it.
-11. 
+11. In Jenkins select New Item -> Free Style project -> Give any name of your choice -> OK.
+12. In Source Code Management -> select Git -> Enter the GitHub URL -> In branches to build select the exact branch which you are in (i.e. /*main).
+13. In Build Triggers -> select Poll SCM? -> Schedule? -> Enter  * * * * * .
+14. In Build Steps -> Add build step -> Select Execute window batch command -> Enter the command (i.e. for java "java Filename.java").
+15. Apply -> Save.
+16. Now click on "Build Now" -> In build history click on the file -> "Select Console Output".
+17. Finally the OUTPUT will be displayed.
