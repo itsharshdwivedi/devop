@@ -1,0 +1,9 @@
+STEPS:
+
+1. Download and install the Docker desktop version.
+2. Search "Turn windows feature on or off". 
+3. Enable the following: 
+            a. Hyper-V
+            b. Windows Subsystem for Linux
+4. Set the Environment variables.
+5. Open a new folder on the desktop and add the files as and when required.
