@@ -1,0 +1,7 @@
+>> docker search <name of the image>  -> Lists out all the features available.
+    docker search msql
+>> docker pull <name of the image>  -> To pull the image.
+>> docker run <name of the image>
+>> docker run -e MYSQL_ROOT_PASSWORD="root123" -d msql
+      -e -> environment variables.
+      -d -> image is running in background.
