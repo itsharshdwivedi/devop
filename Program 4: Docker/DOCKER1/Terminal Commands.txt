@@ -1,0 +1,7 @@
+1. To create an image:
+    docker build -t <name of the image> <path of the application>
+    docker build -t pythonbuild .
+
+2. To run the image:
+    docker run --name <name of the running image> <image name>
+    docker run --name program4 pythonbuild
