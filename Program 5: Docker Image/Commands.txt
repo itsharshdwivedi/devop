@@ -20,9 +20,13 @@ After entering it will ask for the password
 11. >> Enter password: root123
 12. Finally it will goto mysql
    >> mysql > show databases;
-+---------------------------+
-|          Database         |
-| Information_Schema        |
-|  MySQL                    |
-|  Performance_Schema
-|
+                                    +---------------------------+
+                                    |          Database         |
+                                    +---------------------------+
+                                    | Information_Schema        |
+                                    |  MySQL                    |
+                                    |  Performance_Schema       |
+                                    |  Sys                      |
+                                    +---------------------------+
+ 13. Next copy the container ID form container lists and write the below command.
+            >> Docker stop <container ID>
