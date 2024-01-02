@@ -4,5 +4,25 @@
 3. >> Docker run -e MYSQL_ROOT_PASSWORD = "root123" -d mysql
             <environment> <user defined password> <detach>
 mysql image contains pre installed client and server model
-4. open a new TAB in cmd
+4. Open a new TAB in cmd
 5. >> Docker run -it mysql /bin/bash --> interactive bash shell in container --> for mysql client
+
+6. Open a new TAB in cmd
+7. >> Docker container ls
+8. >> Docker inspect awesome-babbage 
+                    <name of the container>
+The name is provided in the last column
+9. IP address of the server --> 172.17.0.2
+goto client: bash-4.4#
+10. >> mysql -h 172.17.0.2 -u root -p
+            <username> <password>
+After entering it will ask for the password
+11. >> Enter password: root123
+12. Finally it will goto mysql
+   >> mysql > show databases;
++---------------------------+
+|          Database         |
+| Information_Schema        |
+|  MySQL                    |
+|  Performance_Schema
+|
