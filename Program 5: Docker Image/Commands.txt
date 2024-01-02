@@ -1,0 +1,8 @@
+
+1. >> Docker search mysql --> Name of the image
+2. >> Docker run mysql --> To run the image
+3. >> Docker run -e MYSQL_ROOT_PASSWORD = "root123" -d mysql
+            <environment> <user defined password> <detach>
+mysql image contains pre installed client and server model
+4. open a new TAB in cmd
+5. >> Docker run -it mysql /bin/bash --> interactive bash shell in container --> for mysql client
