@@ -22,7 +22,6 @@ public class ReadJSON {
 		System.out.println("firstname"+fname);
 		System.out.println("lastname"+lname);
 
-
 	}
 
 }
