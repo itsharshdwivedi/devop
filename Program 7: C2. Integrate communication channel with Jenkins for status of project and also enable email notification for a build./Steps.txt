@@ -18,3 +18,7 @@
 18. In post build actions > select slack notification > check “Notify success”, “Notify unstable”, “Notify failure” > SAVE.
 19. Click on Build now.
 20. Go to slack channel and check for success message.
+
+
+Video Link:
+https://www.youtube.com/watch?v=lZS32wC_JZY&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=4
