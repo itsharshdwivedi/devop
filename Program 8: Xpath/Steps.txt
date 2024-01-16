@@ -1,0 +1,29 @@
+download selenium for java
+download latest chrome 
+download the latest chrome drivers :https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.109/win64/chrome-win64.zip
+
+ecxtract both
+
+create a new java project in eclipse>class and paste the code
+add the jar files by right clicking on the created java project
+buildpath>config build path>libraries>add external jar files
+select all the jar files extracted from the  selenium for java download 
+
+change the path of the drivers in code
+code(eclipse):
+
+package Selenium;
+import java.time.Duration;
+public class Launchchrome {
+
+  public static void main(String[] args) throws InterruptedException {
+      // TODO Auto-generated method stub
+      
+      System.setProperty ("webdriver.chrome.driver","c:\\Users\\VVCE\\Downloads\\chromedrivers-win64\\chromedrivers-win64\\chromedrivers.exe");
+      ChromeDriver driver = new ChromeDriver():
+      driver.manage () .window() .maximize();
+      driver.get("http://www.vvce.ac.in/"):
+      driver.manage().timeouts() .implicitlyWait (10, TimeUnit. SECONDS);
+      driver.findElement (By.xpath("//span[text ()="x"] [1]")).click();
+  }
+}
