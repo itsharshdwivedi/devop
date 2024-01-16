@@ -14,7 +14,7 @@ agent any
 environment
 {
  dockerImage=''
- registry='anilkumarbh/pythonapp'
+ registry='randomplayer2002/pythonapp'
  registryCredential='jenkin_docker_token'
 }
 stages{
@@ -50,3 +50,7 @@ docker tag <reponame>:<tagname> <hubname>/<display name>
 
 6. Push the image to hub.
 7. Image will be available in docker hub
+
+Video link:
+https://www.youtube.com/watch?v=5RNy1BScPN8
+
