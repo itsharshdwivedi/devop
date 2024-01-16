@@ -1,0 +1,20 @@
+1. Create account on slack.com
+2. Create a channel in slack
+3. Open Jinkins
+4. Manage Jenkins > plugins > available plugins > slack notification plugins (install) 
+5. Come to dashboard > manage Jenkins > system > scroll down to “Slack”
+6. Open https://plugins.jenkins.io/slack/ in new tab
+7. Click on the 2nd link in step 2.
+8. Select the channel you had created
+9. Click on Add Jenkins CI integration
+10. In step 3, Copy the team sub domain and the Integration token credential ID
+11. Go to Jenkins page, in Slack section, paste the  team sub domain in workspace.
+12. In credentials, click on add > select KIND as secret text > paste the copied Integration token credential ID under Secret.
+13. Give desired id > click on ADD
+14. Under Default channel, type the channel name which you had created.
+15. Click on Save
+16. Go back to Dashboadd > New item > enter a name >select free style project > OK
+17. Scroll down to Build steps > Execute windows batch command > type “java -version”
+18. In post build actions > select slack notification > check “Notify success”, “Notify unstable”, “Notify failure” > SAVE.
+19. Click on Build now.
+20. Go to slack channel and check for success message.
