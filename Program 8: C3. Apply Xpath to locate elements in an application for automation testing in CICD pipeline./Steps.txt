@@ -27,3 +27,6 @@ public class Launchchrome {
       driver.findElement (By.xpath("//span[text ()="x"] [1]")).click();
   }
 }
+
+Video Link:
+https://www.youtube.com/watch?v=bkSZBWiJ1fo
