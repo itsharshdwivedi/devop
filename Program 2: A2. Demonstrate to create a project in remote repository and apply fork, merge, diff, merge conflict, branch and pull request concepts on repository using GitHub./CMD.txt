@@ -25,3 +25,6 @@
     NOTE: For the above command you should be on the same branch that you want to rename, use " git checkout" for switching,
 6. >> ls   (lists all the files and folders in the existing repository.)
 7. >> cat <filename.extension>  (for reading the contents of the file.)
+
+Video Link:
+https://www.youtube.com/watch?v=otTha_hsS4A&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=2
