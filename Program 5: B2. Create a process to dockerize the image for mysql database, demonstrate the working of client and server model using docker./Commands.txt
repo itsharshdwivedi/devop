@@ -30,3 +30,5 @@ After entering it will ask for the password
                                     +---------------------------+
  13. Next copy the container ID form container lists and write the below command.
             >> Docker stop <container ID>
+Video Link:
+https://www.youtube.com/watch?v=JwW6YiLl52M&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=3
