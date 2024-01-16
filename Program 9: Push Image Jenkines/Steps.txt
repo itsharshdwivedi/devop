@@ -1,0 +1,52 @@
+Configuration Steps:
+1. Go to Jenkins and configure docker plug-ins.
+Install
+1. CloudBees Docker Custom Build EnvironmentVersion1.7.3
+2. Docker
+3. Docker Compose Build Step
+Make sure that these three plug-in must be installed.
+2. Create a pipeline project
+3. Go to project configuration add pipeline script under “Advanced project Options”
+
+pipeline
+{
+agent any
+environment
+{
+ dockerImage=''
+ registry='anilkumarbh/pythonapp'
+ registryCredential='jenkin_docker_token'
+}
+stages{
+ stage('Checkout')
+ {
+ steps{
+ checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url:
+'https://github.com/AnilBiluvala/dpipeline.git']])
+ }
+ }
+ stage('Build Docker image')
+ {
+VVCE, MYSORE
+22 [20CS77-DEVOPS LAB]
+ steps{
+ script{
+ dockerImage=docker.build registry
+ }
+ }
+ }
+
+ }
+}
+
+In script add git url, docker hub credentias, docker hub image name.
+Save the configuration and run the build. Image will be created.
+4. Push the image to docker hub.
+    >> docker login
+Provide docker hub crdentials.
+
+5. Tag the image to be pushed.
+docker tag <reponame>:<tagname> <hubname>/<display name>
+
+6. Push the image to hub.
+7. Image will be available in docker hub
