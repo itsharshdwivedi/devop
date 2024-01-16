@@ -32,5 +32,4 @@ After entering it will ask for the password
             >> Docker stop <container ID>
 Video Link:
 https://www.youtube.com/watch?v=JwW6YiLl52M&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=3
-
 https://www.youtube.com/watch?v=T8a6dJoOMEw
