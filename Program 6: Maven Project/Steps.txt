@@ -1,0 +1,3 @@
+1. Open Maven project in Eclipse IDE
+2. With in maven project choose maven-archetype-quickstart 1.1-1.4
+3. 
