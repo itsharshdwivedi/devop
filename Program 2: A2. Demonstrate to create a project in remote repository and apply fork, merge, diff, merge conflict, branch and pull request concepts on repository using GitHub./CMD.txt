@@ -26,5 +26,14 @@
 6. >> ls   (lists all the files and folders in the existing repository.)
 7. >> cat <filename.extension>  (for reading the contents of the file.)
 
+
+-- fork, merge, diff, merge conflict pull request concepts on repository using GitHub --
+
+1. Git Fork (A fork is a rough copy of a repository.)
+2. >> git merge master (In Git, the merging is a procedure to connect the forked history.)
+3. >> git diff (It compares the different versions of data sources.)
+4. >> git pull (It is used to pull a repository.)
+
+
 Video Link:
 https://www.youtube.com/watch?v=otTha_hsS4A&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=2
