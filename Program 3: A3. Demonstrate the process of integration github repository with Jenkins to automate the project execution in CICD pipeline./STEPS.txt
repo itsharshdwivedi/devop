@@ -1,6 +1,6 @@
 1. Download Python, Jdk 17.0.8 & Jenkins.
-2. Go to the search bar and search for Edit System Variables.
-3. In Edit System Variable click "Edit environment" ->  Under system variables select "PATH".
+2. Go to the search bar and search for Edit System Environment Variables.
+3. In Edit System Environment Variable click "Environment Variables" ->  Under system variables select "PATH".
 4. Edit the "PATH" -> Click on "New" -> Enter the path of JDK 17.0.8 till 'Bin' then press OK.
 5. Now install Jenkins -> PATH (JDK 17.0.8) -> Run as administrator.
 6. In the browser search for "localhost:8080".
@@ -8,7 +8,7 @@
 8. Paste the password in the browser.
 9. Set the username and password of your choice -> Save and continue -> Save and continue.
 10. Open an empty GitHub repository with a READ.ME file in it and upload a sample file to it.
-11. In Jenkins select New Item -> Free Style project -> Give any name of your choice -> OK.
+11. In Jenkins Dashboard select New Item -> Free Style project -> Give any name of your choice -> OK.
 12. In Source Code Management -> select Git -> Enter the GitHub URL -> In branches to build select the exact branch which you are in (i.e. /*main).
 13. In Build Triggers -> select Poll SCM? -> Schedule? -> Enter  * * * * * .
 14. In Build Steps -> Add build step -> Select Execute window batch command -> Enter the command (i.e. for java "java Filename.java").
