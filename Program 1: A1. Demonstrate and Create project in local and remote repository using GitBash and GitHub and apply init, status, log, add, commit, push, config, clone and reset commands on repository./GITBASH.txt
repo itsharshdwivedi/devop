@@ -3,7 +3,7 @@ ADDING THE FILE TO THE REMOTE REPOSITORY USING GIT BASH.
 GIT BASH COMMANDS:
 
 01:
-$ git init
+$ git init (Initializing an empty repository.)
 
 02:
 $ ls -a  (Getting the list of all hidden files.)
@@ -15,7 +15,7 @@ $ touch <File name.txt> (Creating the file.)
 $ git status  (Checking the folder/file status.)
 
 05:
-$ git add <File name.txt>  (Adding the file to stagging area.)
+$ git add <File name.txt>  (Adding the file to the staging area.)
 
 06:
 $ git config --global user.name "your GitHub username"
@@ -24,20 +24,19 @@ $ git config --global user.name "your GitHub username"
 $ git config --global user.email "your email id"
 
 08:
-$ git commit -m "Commit message" (For commiting with defined message.)
+$ git commit -m "Commit message" (For committing with a defined message.)
 
 09:
 $ git log  (For checking Logs/Activities.)
 
 10:
-$ git add .  ('.' for indicating current file.)
+$ git add .  ('.' for indicating the current file.)
 
 11:
 $ git reset --hard <hash value of the version form git log>  (For getting back to previous version.)
 
 12:
-$ git clone <url>  (For cloning the GitHub repository)
+$ git clone <url>  (For cloning the GitHub repository.)
 
 13:
-$ git push origin main
-
+$ git push origin main (pushes your local main branch to the remote repository named origin.)
