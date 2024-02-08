@@ -1,16 +1,16 @@
-download selenium for java
-download latest chrome 
-download the latest chrome drivers :https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.109/win64/chrome-win64.zip
+STEPS:
+1. download selenium for java
+2. download the latest Chrome version
+3. download the latest Chrome drivers: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.109/win64/chrome-win64.zip
+4. Extract both the folders
+5. create a new Java project in eclipse > class and paste the code
+6. Add the jar files by right-clicking on the created Java project
+7. Build path > config build path > libraries > Modulepath > add external jar files
+8. Select all the jar files extracted from the  selenium for Java download 
+9. click on the Maven project > src/main/java > selenium > right click > new > class > Launchchrome.java 
 
-ecxtract both
-
-create a new java project in eclipse>class and paste the code
-add the jar files by right clicking on the created java project
-buildpath>config build path>libraries>add external jar files
-select all the jar files extracted from the  selenium for java download 
-
-change the path of the drivers in code
-code(eclipse):
+10. Paste the code(eclipse):
+(change the path of the drivers in the code)
 
 package Selenium;
 import java.time.Duration;
@@ -24,7 +24,7 @@ public class Launchchrome {
       driver.manage () .window() .maximize();
       driver.get("http://www.vvce.ac.in/"):
       driver.manage().timeouts() .implicitlyWait (10, TimeUnit. SECONDS);
-      driver.findElement (By.xpath("//span[text ()="x"] [1]")).click();
+      driver.findElement(By.xpath("//span[text ()="x"][1]")).click();
   }
 }
 
