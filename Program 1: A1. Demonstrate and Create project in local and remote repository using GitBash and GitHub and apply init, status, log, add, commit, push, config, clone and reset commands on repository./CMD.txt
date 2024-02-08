@@ -46,7 +46,6 @@ STEP 03:
 > git push 
 
 
-
 Git Branches:
 
 > git branch (number of branches.)
