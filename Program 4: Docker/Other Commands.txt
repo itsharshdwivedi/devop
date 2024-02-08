@@ -5,3 +5,17 @@
 >> docker run -e MYSQL_ROOT_PASSWORD="root123" -d msql
       -e -> environment variables.
       -d -> image is running in background.
+
+--------------------------------------------------------------------------------
+STEPS:
+1. Download and install the Docker desktop version.
+2. Search "Turn windows feature on or off". 
+3. Enable the following: 
+            a. Hyper-V
+            b. Windows Subsystem for Linux
+4. Set the Environment variables.
+5. Open a new folder on the desktop and add the files as and when required.
+
+
+Video Link:
+https://www.youtube.com/watch?v=iDJjgT8lulA&t=3s
