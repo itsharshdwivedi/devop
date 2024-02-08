@@ -59,4 +59,5 @@ STEPS:
 11. Later click on >> merge pull request -> confirm merge.
 ---------------------------------------------------------------------------------------------------------------------------------
 Video Link:
-https://www.youtube.com/watch?v=otTha_hsS4A&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=2
+1. https://www.youtube.com/watch?v=otTha_hsS4A&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=2
+2. https://youtu.be/xNVM5UxlFSA?si=k_oFQjpSJYOO6xQQ
