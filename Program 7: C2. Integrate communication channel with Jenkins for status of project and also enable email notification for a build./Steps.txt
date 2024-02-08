@@ -4,22 +4,13 @@ STEPS:
 3. Open Jinkins and log in with your user credentials.
 4. Manage Jenkins > plugins > in available plugins > search for slack notification plugins (install) 
 5. Select the first one > go to Documentation > select Configure the Jenkins integration: https://my.slack.com/services/new/jenkins-ci
-5. Come to dashboard > manage Jenkins > system > scroll down to “Slack”
-6. Open https://plugins.jenkins.io/slack/ in new tab
-7. Click on the 2nd link in step 2.
-8. Select the channel you had created
-9. Click on Add Jenkins CI integration
-10. In step 3, Copy the team sub domain and the Integration token credential ID
-11. Go to Jenkins page, in Slack section, paste the  team sub domain in workspace.
-12. In credentials, click on add > select KIND as secret text > paste the copied Integration token credential ID under Secret.
-13. Give desired id > click on ADD
-14. Under Default channel, type the channel name which you had created.
-15. Click on Save
-16. Go back to Dashboadd > New item > enter a name >select free style project > OK
-17. Scroll down to Build steps > Execute windows batch command > type “java -version”
-18. In post build actions > select slack notification > check “Notify success”, “Notify unstable”, “Notify failure” > SAVE.
-19. Click on Build now.
-20. Go to slack channel and check for success message.
+6. Choose a channel > Add Jenkins CI integration > got Step 3 and copy the Integration token credential ID (highlighted) > save settings.
+5. Come to Jenkins dashboard > manage Jenkins > system > scroll down to “Slack”
+7. Workspace > Credential? > Add Jenkins > Kind > Select Secret text > in Secret > Paste the Integration token credential ID which was copied > Add > Save.
+8. In Jenkins > Select New Item > <Name> > Free Style Project > Build Step > Add build step > Execute windows batch command > java --version 
+9. Post-build action > Add > Slack Notifications > Select all slack notifications > Apply & Save.
+10. Click on Build now > Console output > Java version is displayed (SUCCESS).
+11. Go to the Slack channel and check for a success message.
 
 
 Video Link:
