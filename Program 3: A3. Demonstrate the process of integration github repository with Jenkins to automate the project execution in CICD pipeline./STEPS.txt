@@ -1,3 +1,4 @@
+STEPS:
 1. Download Python, Jdk 17.0.8 & Jenkins.
 2. Go to the search bar and search for Edit System Environment Variables.
 3. In Edit System Environment Variable click "Environment Variables" ->  Under system variables select "PATH".
