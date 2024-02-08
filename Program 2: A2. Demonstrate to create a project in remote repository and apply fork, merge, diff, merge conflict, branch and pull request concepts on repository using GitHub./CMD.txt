@@ -20,7 +20,7 @@
 1. >> git branch  (lists the existing branches on the git repository.)
 2. >> git checkout -b <branch name>  (used for the creation of a new branch and switching to it.)
 3. >> git branch <branch name>   (creating a new branch.)
-4. >> git checkout  (switching between the branches.)
+4. >> git checkout <branch name> (switching between the branches.)
 5. >> git branch -m <new branch name>  (for renaming the existing branch.)
     NOTE: For the above command you should be on the same branch that you want to rename, use " git checkout" for switching,
 6. >> ls   (lists all the files and folders in the existing repository.)
