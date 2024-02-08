@@ -35,5 +35,9 @@
 4. >> git pull (It is used to pull a repository.)
 
 
+STEPS:
+1. Create an empty GitHub repository.
+
+
 Video Link:
 https://www.youtube.com/watch?v=otTha_hsS4A&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=2
