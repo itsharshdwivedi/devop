@@ -6,25 +6,27 @@ STEPS:
             >> docker run mysql    --> To run the image
             >> docker run -e MYSQL_ROOT_PASSWORD="root123" -d mysql
                         <environment> <user defined password> <detach>  (MySQL image contains pre-installed client and server model)
+
 3. Open another command prompt (CMD) and type in the following commands
             >> docker run -it /bin/bash
             (bash-4.4# is displayed)
 
-4. >> Docker run -it mysql /bin/bash --> interactive bash shell in container --> for mysql client
+4. Go back to the first command prompt (CMD) and type the following command.
+            >> docker container ls
+            >> docker inspect <NAME> (eg: nice_joliot)
+                        <name of the container>
+                        (The name is provided in the last column)
 
-5. Open a new TAB in cmd
-7. >> Docker container ls
-8. >> Docker inspect awesome-babbage 
-                    <name of the container>
-The name is provided in the last column
-9. IP address of the server --> 172.17.0.2
-goto client: bash-4.4#
-10. >> mysql -h 172.17.0.2 -u root -p
-            <username> <password>
-After entering it will ask for the password
-11. >> Enter password: root123
-12. Finally it will goto mysql
-   >> mysql > show databases;
+5. Copy the IP Address i.e. "172.17.0.2"
+
+6. Go to the second command prompt (CMD) (Client) and type in the following command.
+            >> mysql -h 172.17.0.2 -u root -p
+                        <username> <password>
+            (After entering it will ask for the password)
+            >> Enter password: root123
+
+7. Finally it will goto mysql (MSQL is launched at this stage)
+               >> mysql > show databases;
                                     +---------------------------+
                                     |          Database         |
                                     +---------------------------+
@@ -33,9 +35,9 @@ After entering it will ask for the password
                                     |  Performance_Schema       |
                                     |  Sys                      |
                                     +---------------------------+
- 13. Next copy the container ID form container lists and write the below command.
-            >> Docker stop <container ID>
 
+8. Next copy the container ID from container lists and type in the below command.
+            >> Docker stop <container ID>
 
 
 Video Link:
