@@ -14,3 +14,7 @@ STEPS:
     >> docker build -t pythonbuild .
     >> docker run --name <any name> pythonbuild
 4. Finally the output will be displayed in the terminal.
+
+
+Video Link:
+https://www.youtube.com/watch?v=iDJjgT8lulA&t=3s
