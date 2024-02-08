@@ -1,0 +1,8 @@
+STEPS:
+1. Open the Docker Hub website and sign in with your login credentials.
+2. Open the Docker Desktop and sign in with your login credentials.
+3. Open Command Prompt (CMD) and type in the following commands.
+  >> docker images  --> (It displays the list of images available (i.e. the set of repositories.))
+  >> docker tag <REPOSITORY name>:<TAG name> <Docker Hub profile name>/<new display name>:<TAG name>
+  >> docker push <Docker Hub profile name>/<new display name>
+4. Finally the Docker image is pushed into the Docker Hub.
