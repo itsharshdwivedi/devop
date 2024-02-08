@@ -1,14 +1,13 @@
-1. file > others > maven proj > next > next > filter: maven-acretype-quickestart verison 1.1 to 1.4
-   > next > grpid archid anything > finish
+STEPS:
+1. file > others > maven proj > next > next > filter: maven-archetype-quickstart version 1.1 to 1.4 > next > Provide Group Id & Artifact Id (anything) > finish
 
-2. Right click on created id folder > new > folder > name as JSON > finesh
+2. Right click on created id folder > new > folder > name as JSON > finish
 
 3. Right click on JSON > New > file > name as student.json
 
 { "firstname":"hihi", "lastname":"haha"}
 
-
-4. Right click on Soucrce/test/java > new > class > name the java class > finish
+4. Right click on Source/test/java > new > class > name the java class > finish
 
 5. Paste this code 
 
