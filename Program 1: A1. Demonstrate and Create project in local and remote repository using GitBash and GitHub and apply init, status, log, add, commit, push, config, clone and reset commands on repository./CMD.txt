@@ -53,5 +53,20 @@ Git Branches:
 > git branch <name of new branch> (Creates a new branch.)
 > git checkout <name of new branch> (Navigates to the branch specified.)
 
+
+STEPS:
+1. First create an empty repository.
+2. > git init
+3. > git add <filename.txt>
+4. > git commit -m "First commit"
+5. > git branch -M main
+6. > git remote add origin <url>
+7. > git push -u origin
+8. Finally the commits will be visible on your repository.
+
+
+Video Link:
+https://www.youtube.com/watch?v=IQHSSVTedbQ&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=1&t=326s
+
 Video Link:
 https://www.youtube.com/watch?v=IQHSSVTedbQ&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=1&t=326s
