@@ -6,3 +6,7 @@ STEPS:
   >> docker tag <REPOSITORY name>:<TAG name> <Docker Hub profile name>/<new display name>:<TAG name>
   >> docker push <Docker Hub profile name>/<new display name>
 4. Finally the Docker image is pushed into the Docker Hub.
+
+
+Video link:
+https://www.youtube.com/watch?v=5RNy1BScPN8
