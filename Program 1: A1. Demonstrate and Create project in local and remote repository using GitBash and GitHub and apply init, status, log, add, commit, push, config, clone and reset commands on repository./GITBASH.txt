@@ -40,3 +40,14 @@ $ git clone <url>  (For cloning the GitHub repository.)
 
 13:
 $ git push origin main (pushes your local main branch to the remote repository named origin.)
+
+
+STEPS:
+1. First create an empty repository.
+2. $ git init
+3. $ git add <filename.txt>
+4. $ git commit -m "First commit"
+5. $ git branch -M main
+6. $ git remote add origin <url>
+7. $ git push -u origin
+8. Finally the commits will be visible on your repository.
