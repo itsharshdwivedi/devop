@@ -51,3 +51,7 @@ STEPS:
 6. $ git remote add origin <url>
 7. $ git push -u origin
 8. Finally the commits will be visible on your repository.
+
+
+Video Link:
+https://www.youtube.com/watch?v=IQHSSVTedbQ&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=1&t=326s
