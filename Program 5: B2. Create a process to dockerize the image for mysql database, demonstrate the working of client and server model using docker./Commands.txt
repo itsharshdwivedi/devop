@@ -8,7 +8,7 @@ STEPS:
                         <environment> <user defined password> <detach>  (MySQL image contains pre-installed client and server model)
 
 3. Open another command prompt (CMD) and type in the following commands
-            >> docker run -it /bin/bash
+            >> docker run -it mysql /bin/bash
             (bash-4.4# is displayed)
 
 4. Go back to the first command prompt (CMD) and type the following command.
