@@ -1,7 +1,9 @@
-1. Create account on slack.com
-2. Create a channel in slack
-3. Open Jinkins
-4. Manage Jenkins > plugins > available plugins > slack notification plugins (install) 
+STEPS:
+1. Open Slack and log in with your user credentials.
+2. Create a channel in Slack or join the existing one
+3. Open Jinkins and log in with your user credentials.
+4. Manage Jenkins > plugins > in available plugins > search for slack notification plugins (install) 
+5. Select the first one > go to Documentation > select Configure the Jenkins integration: https://my.slack.com/services/new/jenkins-ci
 5. Come to dashboard > manage Jenkins > system > scroll down to “Slack”
 6. Open https://plugins.jenkins.io/slack/ in new tab
 7. Click on the 2nd link in step 2.
