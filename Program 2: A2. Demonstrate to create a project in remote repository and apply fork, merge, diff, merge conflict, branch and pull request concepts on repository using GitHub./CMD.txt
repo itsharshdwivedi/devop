@@ -34,10 +34,29 @@
 3. >> git diff (It compares the different versions of data sources.)
 4. >> git pull (It is used to pull a repository.)
 
-
+--------------------------------------------------------------------------------------------------------------------------------
 STEPS:
 1. Create an empty GitHub repository.
-
-
+2. Add a README.md and a Sample.txt file with some lines of text (i.e. 2 to 3 lines).
+3. Clone the repository into the local machine.
+    $ git clone <url>
+4. Create a new branch
+    $ git branch <new branch name>
+5. Navigate to the new branch created
+    $ git checkout <new branch name>
+6. Make some changes to the file and push it to the new branch that has been created.
+    $ git add . 
+    $ git commit -m "commit msg"
+    $ git push -u origin <new branch name>
+7. Navigate back to the "main" branch
+    $ git checkout main
+8. Make some changes to the file and push it to the main branch.
+    $ git add . 
+    $ git commit -m "some msg"
+    $ git push -u origin main
+9. Now if you try to merge the file from the new branch by clicking on >> compare & pull. It will give you "Merge conflict".
+10. Resolve the conflict and click on >> commit & merge.
+11. Later click on >> merge pull request -> confirm merge.
+---------------------------------------------------------------------------------------------------------------------------------
 Video Link:
 https://www.youtube.com/watch?v=otTha_hsS4A&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=2
