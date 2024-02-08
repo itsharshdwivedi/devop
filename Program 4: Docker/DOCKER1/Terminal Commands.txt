@@ -3,5 +3,14 @@
     docker build -t pythonbuild .
 
 2. To run the image:
-    docker run --name <name of the running image> <image name>
+    docker run --name <any name of the running image> <image name>
     docker run --name program4 pythonbuild
+
+
+STEPS:
+1. Create a folder in Desktop and add Dockerfile, and Sample.py file to it.
+2. Open the Docker Application and sign in with your login credentials.
+3. Open the terminal in that particular folder that has been created and type in the following commands.
+    >> docker build -t pythonbuild .
+    >> docker run --name <any name> pythonbuild
+4. Finally the output will be displayed in the terminal.
