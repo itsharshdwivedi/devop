@@ -1,13 +1,18 @@
+STEPS:
+1. Open the Docker Application and sign in with your login credentials. 
+2. Open the command prompt (CMD) and type in the following commands.
+            >> docker search mysql --> Name of the image
+            >> docker pull mysql   --> pulling the mysql image
+            >> docker run mysql    --> To run the image
+            >> docker run -e MYSQL_ROOT_PASSWORD="root123" -d mysql
+                        <environment> <user defined password> <detach>  (MySQL image contains pre-installed client and server model)
+3. Open another command prompt (CMD) and type in the following commands
+            >> docker run -it /bin/bash
+            (bash-4.4# is displayed)
 
-1. >> Docker search mysql --> Name of the image
-2. >> Docker run mysql --> To run the image
-3. >> Docker run -e MYSQL_ROOT_PASSWORD = "root123" -d mysql
-            <environment> <user defined password> <detach>
-mysql image contains pre installed client and server model
-4. Open a new TAB in cmd
-5. >> Docker run -it mysql /bin/bash --> interactive bash shell in container --> for mysql client
+4. >> Docker run -it mysql /bin/bash --> interactive bash shell in container --> for mysql client
 
-6. Open a new TAB in cmd
+5. Open a new TAB in cmd
 7. >> Docker container ls
 8. >> Docker inspect awesome-babbage 
                     <name of the container>
