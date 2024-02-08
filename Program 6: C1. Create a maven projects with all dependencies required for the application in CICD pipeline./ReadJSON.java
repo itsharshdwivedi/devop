@@ -19,8 +19,8 @@ public class ReadJSON {
 		JSONObject studentobj = (JSONObject)obj;
 		String fname = (String)studentobj.get("firstname");
 		String lname = (String)studentobj.get("lastname");
-		System.out.println("firstname"+fname);
-		System.out.println("lastname"+lname);
+		System.out.println("firstname: "+fname);
+		System.out.println("lastname: "+lname);
 
 	}
 
