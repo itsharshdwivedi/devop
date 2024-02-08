@@ -14,7 +14,7 @@ public class ReadJSON {
 	public static void main(String args[]) throws IOException, ParseException {
 
 		JSONParser jsonparser = new JSONParser();
-		FileReader reader = new FileReader(".\\json\\student.json");
+		FileReader reader = new FileReader(".\\JSON\\student.json");
 		Object obj = jsonparser.parse(reader);
 		JSONObject studentobj = (JSONObject)obj;
 		String fname = (String)studentobj.get("firstname");
