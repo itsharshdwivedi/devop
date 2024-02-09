@@ -13,19 +13,28 @@ STEPS:
 (change the path of the drivers in the code)
 
 package Selenium;
-import java.time.Duration;
-public class Launchchrome {
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.concurrent.TimeUnit;
+public class wewere{
 
-  public static void main(String[] args) throws InterruptedException {
-      // TODO Auto-generated method stub
-      
-      System.setProperty ("webdriver.chrome.driver","c:\\Users\\VVCE\\Downloads\\chromedrivers-win64\\chromedrivers-win64\\chromedrivers.exe");
-      ChromeDriver driver = new ChromeDriver():
-      driver.manage () .window() .maximize();
-      driver.get("http://www.vvce.ac.in/"):
-      driver.manage().timeouts() .implicitlyWait (10, TimeUnit. SECONDS);
-      driver.findElement(By.xpath("//span[text ()="x"][1]")).click();
-  }
+	public static void main(String[] args) throws InterruptedException{
+		
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver","C:\\chrome driver\\chromedriver-win64\\chromedriver.exe");
+		ChromeDriver driver =new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.vvce.ac.in/");
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		//driver.findElement(By.xpath("//span[text()='x'][1]")).click();
+		System.out.println(driver.getTitle());
+		driver.quit();
+		
+
+
+	}
+
 }
 
 Video Link:
