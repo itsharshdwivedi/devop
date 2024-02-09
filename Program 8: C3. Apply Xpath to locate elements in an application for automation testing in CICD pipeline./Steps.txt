@@ -3,7 +3,7 @@ STEPS:
 2. download the latest Chrome version
 3. download the latest Chrome drivers: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.109/win64/chrome-win64.zip
 4. Extract both the folders
-5. create a new Java project in eclipse > class and paste the code
+5. create a new Java project in eclipse
 6. Add the jar files by right-clicking on the created Java project
 7. Build path > config build path > libraries > Modulepath > add external jar files
 8. Select all the jar files extracted from the  selenium for Java download 
