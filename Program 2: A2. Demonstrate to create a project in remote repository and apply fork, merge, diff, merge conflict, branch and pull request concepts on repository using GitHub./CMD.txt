@@ -20,12 +20,12 @@ Demonstrate the creation of a project in a remote repository and apply concepts 
  Step 3: Clone the Repository Locally
 1. Copy the repository URL from GitHub.
 2. In your terminal, run:
-   ```bash
+   ```
    git clone <repository-url>
    ```
    This will create a copy of the repository in your local folder.
 3. Navigate into the repository folder:
-   ```bash
+   ```
    cd MyGitHubProject
    ```
 
@@ -33,11 +33,11 @@ Demonstrate the creation of a project in a remote repository and apply concepts 
 
  Step 4: Create a New Branch
 1. Create a new branch:
-   ```bash
+   ```
    git branch feature-branch
    ```
 2. Switch to the new branch:
-   ```bash
+   ```
    git checkout feature-branch
    ```
 
@@ -46,12 +46,12 @@ Demonstrate the creation of a project in a remote repository and apply concepts 
  Step 5: Make Changes in the New Branch
 1. Add a new file in your folder (e.g., `feature.txt`) and add some content.
 2. Stage and commit the changes:
-   ```bash
+   ```
    git add .
    git commit -m "Add feature.txt file"
    ```
 3. Push the changes to the remote branch:
-   ```bash
+   ```
    git push -u origin feature-branch
    ```
 
@@ -59,17 +59,17 @@ Demonstrate the creation of a project in a remote repository and apply concepts 
 
  Step 6: Make Changes in the Main Branch
 1. Switch back to the main branch:
-   ```bash
+   ```
    git checkout main
    ```
 2. Make changes in an existing file (e.g., `README.md`) or add a new file (e.g., `main_changes.txt`).
 3. Stage and commit the changes:
-   ```bash
+   ```
    git add .
    git commit -m "Make changes in main branch"
    ```
 4. Push the changes to the remote repository:
-   ```bash
+   ```
    git push origin main
    ```
 
@@ -88,12 +88,12 @@ If there are conflicting changes:
 1. GitHub will show the conflict in the Pull Request.
 2. Resolve the conflict by editing the conflicting file(s) directly in GitHub or locally.
 3. After resolving, commit the changes:
-   ```bash
+   ```
    git add .
    git commit -m "Resolve merge conflict"
    ```
 4. Push the updated branch:
-   ```bash
+   ```
    git push origin feature-branch
    ```
 5. Merge the Pull Request on GitHub by clicking Merge Pull Request → Confirm Merge.
@@ -104,7 +104,7 @@ If there are conflicting changes:
 1. Log in to another GitHub account (or ask a collaborator).
 2. Go to the original repository and click Fork.
 3. Clone the forked repository to the local machine:
-   ```bash
+   ```
    git clone <forked-repository-url>
    ```
 
@@ -112,7 +112,7 @@ If there are conflicting changes:
 
  Step 10: Make Changes in the Fork
 1. Make changes in the forked repository, commit them, and push them to the forked repository's main branch.
-   ```bash
+   ```
    git add .
    git commit -m "Changes in forked repository"
    git push origin main
@@ -129,7 +129,7 @@ If there are conflicting changes:
 
  Step 12: Use `git diff` Locally
 1. Compare changes between branches:
-   ```bash
+   ```
    git diff main feature-branch
    ```
    This shows the differences between the `main` branch and the `feature-branch`.
