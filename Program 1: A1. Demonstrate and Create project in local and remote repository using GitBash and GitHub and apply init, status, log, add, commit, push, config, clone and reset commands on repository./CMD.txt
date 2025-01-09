@@ -1,68 +1,125 @@
-ADDING THE FILE TO THE REMOTE REPOSITORY USING THE COMMAND PROMOT.
+Adding a file to a remote repository using the command prompt (CMD), starting from creating a folder to seeing your commits on GitHub.
 
-CMD COMMANDS:
+---
 
-STEP 01:
-> git init 
+ Step 1: Create a Folder for Your Project
+1. Open the Command Prompt.
+2. Navigate to the location where you want to create your folder:
+   ```
+   cd path\to\desired\location
+   ```
+3. Create a new folder:
+   ```
+   mkdir project-folder-name
+   ```
+4. Navigate into the folder:
+   ```
+   cd project-folder-name
+   ```
 
-STEP 02:
-> git add . 
+---
 
-STEP 03:
-> git commit -m "commit message"
+ Step 2: Initialize a Git Repository
+1. Initialize an empty Git repository:
+   ```
+   git init
+   ```
 
-STEP 04:
-> git config --global user.name "your GitHub username"
+---
 
-STEP 05:
-> git config --global user.email "your email id"
+ Step 3: Create a File in the Folder
+1. Create a file using any text editor or the command prompt. For example:
+   ```
+   echo "Hello, Git!" > filename.txt
+   ```
 
-STEP 06:
-> git push
+---
 
-STEP 07:
-> git remote add <name of the file> <url>
+ Step 4: Stage the File
+1. Add the file to the staging area:
+   ```
+   git add filename.txt
+   ```
+   Or add all files in the folder:
+   ```
+   git add .
+   ```
 
-STEP 08:
-> git push <name of the file>
+---
 
-STEP 09:
-> git commit -m "commit message"
+ Step 5: Commit the Changes
+1. Commit the staged changes with a message:
+   ```
+   git commit -m "First commit"
+   ```
 
-STEP 08:
-> git push --set-upstream master 
+---
 
+ Step 6: Configure Git (if not done before)
+1. Set your global username:
+   ```
+   git config --global user.name "Your GitHub Username"
+   ```
+2. Set your global email address:
+   ```
+   git config --global user.email "YourEmail@example.com"
+   ```
 
+---
 
-After:
+ Step 7: Create a Remote Repository on GitHub
+1. Log in to your GitHub account.
+2. Click the + icon in the top-right corner and select New repository.
+3. Name your repository (e.g., `project-folder-name`) and click Create repository.
 
-STEP 01
-> git add .
+---
 
-STEP 02:
-> git commit -m "commit message"
+ Step 8: Link the Local Repository to the Remote Repository
+1. Add the remote repository URL:
+   ```
+   git remote add origin https://github.com/your-username/repository-name.git
+   ```
 
-STEP 03:
-> git push 
+---
 
+ Step 9: Set the Default Branch to Main
+1. Rename the current branch to `main` (if not already named so):
+   ```
+   git branch -M main
+   ```
 
-Git Branches:
+---
 
-> git branch (number of branches.)
-> git branch <name of new branch> (Creates a new branch.)
-> git checkout <name of new branch> (Navigates to the branch specified.)
+ Step 10: Push the Changes
+1. Push the changes to the remote repository:
+   ```
+   git push -u origin main
+   ```
 
+---
 
-STEPS:
-1. First create an empty repository.
-2. > git init
-3. > git add <filename.txt>
-4. > git commit -m "First commit"
-5. > git branch -M main
-6. > git remote add origin <url>
-7. > git push -u origin
-8. Finally the commits will be visible on your repository.
+ Additional Commands for Git Branches
+1. View All Branches:
+   ```
+   git branch
+   ```
+2. Create a New Branch:
+   ```
+   git branch branch-name
+   ```
+3. Switch to a Branch:
+   ```
+   git checkout branch-name
+   ```
 
+---
 
-Video Link:
-https://www.youtube.com/watch?v=IQHSSVTedbQ&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=1&t=326s
+ Final Note
+After completing these steps, visit your GitHub repository page. You should see the file(s) you pushed in the repository.
+
+---
+
+ Video Reference
+[Git & GitHub Tutorial for Beginners](https://www.youtube.com/watch?v=IQHSSVTedbQ&list=PLGrZ_y6IM4jeDUsDgziJqqWtC4AmB61Sq&index=1&t=326s)
+
+This guide is simplified and error-free for easy execution. Let me know if you need any additional help!
